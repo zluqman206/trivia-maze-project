@@ -2,7 +2,6 @@ package Model;
 
 public class Door implements DoorInterface {
     private boolean myIsLocked;
-
     private QuestionAnswer myQA;
 
     /**
@@ -11,16 +10,15 @@ public class Door implements DoorInterface {
     public Door(){
         // initially the door is open
         myIsLocked = false;
+        myQA = null;
     }
+
     /**
      * A getter method to get current status of the door.
      */
     public boolean isLocked(){
         return myIsLocked;
     }
-
-
-
 
     public QuestionAnswer.Question getQuestion() {
         return myQA.getMyQuestion();
