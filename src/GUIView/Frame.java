@@ -21,13 +21,17 @@ public class Frame extends JFrame {
     private JFrame myFrame;
     /** Holds the Toolbar stuff.*/
     private final ToolBar myToolBar;
+    private MazePanel myMazePanel;
 
     /**
      * Constructs frame and initializes the filed.
      */
     public Frame(){
         myToolBar = new ToolBar();
+        myMazePanel = new MazePanel();
+
         buildFrame();
+        this.add(myMazePanel.getMyMazePanel(), BorderLayout.CENTER);
         addToolBar();
     }
 
