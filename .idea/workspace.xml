@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="35a6c7ce-a58d-4169-9fc1-ad5cc0297ad3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUIView/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUIView/TestFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/TestFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUIView/ToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/ToolBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUIView/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TriviaMazeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TriviaMazeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUIView/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/Frame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUIView/MazePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/MazePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Door.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DoorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DoorInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Maze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Room.java" afterDir="false" />
     </list>
@@ -16,6 +19,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

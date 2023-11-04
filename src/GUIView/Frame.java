@@ -6,6 +6,8 @@
 package GUIView;
 
 
+import Model.Maze;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -23,12 +25,15 @@ public class Frame extends JFrame {
     private final ToolBar myToolBar;
     private MazePanel myMazePanel;
 
+    private Maze myMaze;
+
     /**
      * Constructs frame and initializes the filed.
      */
     public Frame(){
+        myMaze = new Maze();
         myToolBar = new ToolBar();
-        myMazePanel = new MazePanel();
+        myMazePanel = new MazePanel(myMaze);
 
         buildFrame();
         this.add(myMazePanel.getMyMazePanel(), BorderLayout.CENTER);

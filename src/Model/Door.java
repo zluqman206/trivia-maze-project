@@ -2,7 +2,7 @@ package Model;
 
 public class Door implements DoorInterface {
     private boolean myIsLocked;
-    private QuestionAnswer myQA;
+
 
     /**
      * Constructor initializes the fields.
@@ -10,7 +10,6 @@ public class Door implements DoorInterface {
     public Door(){
         // initially the door is open
         myIsLocked = false;
-        myQA = null;
     }
 
     /**
@@ -20,9 +19,7 @@ public class Door implements DoorInterface {
         return myIsLocked;
     }
 
-    public QuestionAnswer.Question getQuestion() {
-        return myQA.getMyQuestion();
-    }
+
 
     /**
      * A setter to set either door is locked or not.

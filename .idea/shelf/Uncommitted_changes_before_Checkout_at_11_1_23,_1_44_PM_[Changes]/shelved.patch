@@ -1,0 +1,81 @@
+Index: src/GUIView/TestFrame.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package GUIView;\n\nimport java.awt.EventQueue;\nimport javax.swing.JFrame;\n\n\npublic class TestFrame {\n    public static void main(String[] theArgs) {\n        EventQueue.invokeLater(() -> {\n            var frame = new Frame();\n            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\n            frame.setVisible(true);\n        });\n    }\n}\n
+===================================================================
+diff --git a/src/GUIView/TestFrame.java b/src/GUIView/TestFrame.java
+--- a/src/GUIView/TestFrame.java	
++++ b/src/GUIView/TestFrame.java	
+@@ -5,11 +5,11 @@
+ 
+ 
+ public class TestFrame {
+-    public static void main(String[] theArgs) {
+-        EventQueue.invokeLater(() -> {
+-            var frame = new Frame();
+-            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+-            frame.setVisible(true);
+-        });
+-    }
++//    public static void main(String[] theArgs) {
++//        EventQueue.invokeLater(() -> {
++//            var frame = new Frame();
++//            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
++//            frame.setVisible(true);
++//        });
++//    }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"35a6c7ce-a58d-4169-9fc1-ad5cc0297ad3\" name=\"Changes\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/GUIView/Frame.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/GUIView/Frame.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/GUIView/TestFrame.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/GUIView/TestFrame.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/GUIView/ToolBar.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/GUIView/ToolBar.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/GUIView/View.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/GUIView/View.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Model/Door.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Door.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Model/Maze.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Maze.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Model/Room.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Model/Room.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2XSi14Tsmg7u33NV5Eo8xRyoxqp\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.TriviaMazeController\">\n    <configuration name=\"TestFrame\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"GUIView.TestFrame\" />\n      <module name=\"trivia-maze-project\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"GUIView.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TriviaMazeController\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Controller.TriviaMazeController\" />\n      <module name=\"trivia-maze-project\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Controller.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.TriviaMazeController\" />\n        <item itemvalue=\"Application.TestFrame\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"35a6c7ce-a58d-4169-9fc1-ad5cc0297ad3\" name=\"Changes\" comment=\"\" />\n      <created>1698628667335</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1698628667335</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,16 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+     <list default="true" id="35a6c7ce-a58d-4169-9fc1-ad5cc0297ad3" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/GUIView/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/Frame.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/GUIView/TestFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/TestFrame.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/GUIView/ToolBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/ToolBar.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/GUIView/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/View.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Model/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Door.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Model/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Maze.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Room.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Controller/TriviaMazeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TriviaMazeController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/GUIView/TestFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/TestFrame.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -28,14 +24,15 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">
+-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+-    <property name="project.structure.last.edited" value="Project" />
+-    <property name="project.structure.proportion" value="0.15" />
+-    <property name="project.structure.side.proportion" value="0.2" />
+-  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.0"
++  }
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$/src" />

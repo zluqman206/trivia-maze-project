@@ -1,67 +1,60 @@
 package Model;
 
-public class Room {
-    private Door[] myDoors;
+import java.io.Serial;
+import java.io.Serializable;
+
+public class Room implements Serializable {
+    @Serial
+    private static final long serialVersionUID = -89283998989899829L;
+    private Door myDoor;
     private int myX;
     private int myY;
+    private char myRoomLetter;
+
+    private QuestionAnswer myQA;
 
     /**
      * Constructor initializes the fields.
      */
-    public Room(final int theX, final int theY,
-                final int theDoor[][]){
+    public Room(final char letter, final int theX, final int theY,
+                final Door theDoor) {
+        myRoomLetter = letter;
         myX = theX;
         myY = theY;
-        //myDoors = theDoor
+        myDoor = theDoor;
 
     }
 
     /**
      * Get the current status of X.
      */
-    public int getMyX(){
+    public int getMyX() {
         return myX;
     }
 
     /**
      * Get the current status of Y.
      */
-    public int getMyY(){
+    public int getMyY() {
         return myY;
     }
 
     /**
      * Getter to return the status of the door.
      */
-    public Door[] getMyDoors(){
-        return myDoors;
+    public Door getMyDoor() {
+        return myDoor;
     }
 
-    /**
-     * Moves position down by one.
-     */
-    public void moveDown(final int theRowNum) {
-        if (myY + 1 >= 0) myY--;
+
+
+    public char getLetter() {
+        return myRoomLetter;
     }
 
-    /**
-     * Moves position up by one.
-     */
-    public void moveUp(final int theRowNum) {
-        if (myY + 1 < theRowNum) myY++;
-    }
-
-    /**
-     * Moves position by one to the right.
-     */
-    public void moveRight(final int theRowNum) {
-        if (myX + 1 < theRowNum) myX++;
-    }
-
-    /**
-     * Moves position by one to the left.
-     */
-    public void moveLeft(final int theRowNum) {
-        if (myY + 1 >= 0) myX--;
+    public QuestionAnswer.Question getQuestion() {
+        return myQA.getMyQuestion();
     }
 }
+
+
