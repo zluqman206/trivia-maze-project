@@ -1,37 +1,60 @@
+/*
+    Name: Matiullah Jalal, Zakiraye Luqman, Hawo Issa
+    Date: 10/05/2023
+    Quarter: Autumn 2023
+ */
 package Model;
 
-public class Room {
-    private Door[] myDoors;
+//import java.io.Serial;
+import java.io.Serializable;
+
+public class Room implements RoomInterface, Serializable {
+    //@Serial
+    private static final long serialVersionUID = -89283998989899829L;
+    private Door myDoor;
     private int myX;
     private int myY;
+    private char myRoomLetter;
+
+    private QuestionAnswer myQA;
 
     /**
      * Constructor initializes the fields.
      */
-    public Room(final int theX, final int theY,
-                final int theDoor[][]){
+    public Room(final char letter, final int theX, final int theY,
+                final Door theDoor) {
+        myRoomLetter = letter;
         myX = theX;
         myY = theY;
-        //myDoors = theDoor
-
+        myDoor = theDoor;
     }
     /**
      * Get the current status of X.
      */
-    public int getMyX(){
+    @Override
+    public int getMyX() {
         return myX;
     }
     /**
      * Get the current status of Y.
      */
-    public int getMyY(){
+    @Override
+    public int getMyY() {
         return myY;
     }
     /**
      * Getter to return the status of the door.
      */
-    public Door[] getMyDoors(){
-        return myDoors;
+    @Override
+    public Door getMyDoor() {
+        return myDoor;
     }
-
+    @Override
+    public char getLetter() {
+        return myRoomLetter;
+    }
+    @Override
+    public QuestionAnswer.Question getQuestion() {
+        return myQA.getMyQuestion();
+    }
 }

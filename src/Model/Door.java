@@ -1,6 +1,14 @@
+/*
+    Name: Matiullah Jalal, Zakiraye Luqman, Hawo Issa
+    Date: 11/06/2023
+    Quarter: Autumn 2023
+ */
 package Model;
-
-public class Door {
+/**
+ * The Door class implements DoorInterface and provides methods to check the status of the door.
+ * If it is locked or not. And it sets the lock status to ture of false.
+ */
+public class Door implements DoorInterface {
     private boolean myIsLocked;
 
     /**
@@ -13,19 +21,15 @@ public class Door {
     /**
      * A getter method to get current status of the door.
      */
+    @Override
     public boolean isLocked(){
         return myIsLocked;
     }
     /**
      * A setter to set either door is locked or not.
      */
+    @Override
     public void lock(final boolean theLocked){
         myIsLocked = theLocked;
     }
-    /**
-     * A to string to print on console.
-     */
-//    public String toString(){
-//
-//    }
 }

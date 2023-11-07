@@ -1,71 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9460aedd-17bf-4ac6-b68f-47e8f5551f27" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trivia-maze-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trivia-maze-project.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7c277175-2073-4117-8089-719b2adaecac" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XioA7qbnxvmaUy8zGy4vazU2R3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.webOptions"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mati/Documents/Trivia_Maze_FinalVersion/src/Model&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.webOptions&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="TestFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GUIView.TestFrame" />
-      <module name="trivia-maze-project" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Model" />
+      <recent name="$PROJECT_DIR$/src/GuiView" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GUIView" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DoorTest (1)">
+    <configuration name="DoorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GUIView.*" />
+          <option name="PATTERN" value="JunitTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.DoorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.DoorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRoom.testGetLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.TestRoom" />
+      <option name="METHOD_NAME" value="testGetLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRoom.testGetMyDoor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.TestRoom" />
+      <option name="METHOD_NAME" value="testGetMyDoor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRoom.testGetQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.TestRoom" />
+      <option name="METHOD_NAME" value="testGetQuestion" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestFrame" />
+        <item itemvalue="JUnit.DoorTest (1)" />
+        <item itemvalue="JUnit.DoorTest" />
+        <item itemvalue="JUnit.TestRoom.testGetQuestion" />
+        <item itemvalue="JUnit.TestRoom.testGetMyDoor" />
+        <item itemvalue="JUnit.TestRoom.testGetLetter" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9460aedd-17bf-4ac6-b68f-47e8f5551f27" name="Changes" comment="" />
-      <created>1698627454499</created>
+      <changelist id="7c277175-2073-4117-8089-719b2adaecac" name="Changes" comment="" />
+      <created>1699121117586</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698627454499</updated>
+      <updated>1699121117586</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
