@@ -1,10 +1,23 @@
+/*
+    Name: Matiullah Jalal, Zakiraye Luqman, Hawo Issa
+    Date: 10/05/2023
+    Quarter: Autumn 2023
+ */
 package Model;
 
+<<<<<<< HEAD
 import java.io.Serial;
 import java.io.Serializable;
 
 public class Room implements Serializable {
     @Serial
+=======
+//import java.io.Serial;
+import java.io.Serializable;
+
+public class Room implements RoomInterface, Serializable {
+    //@Serial
+>>>>>>> matiBranch
     private static final long serialVersionUID = -89283998989899829L;
     private Door myDoor;
     private int myX;
@@ -22,12 +35,19 @@ public class Room implements Serializable {
         myX = theX;
         myY = theY;
         myDoor = theDoor;
+<<<<<<< HEAD
 
+=======
+>>>>>>> matiBranch
     }
 
     /**
      * Get the current status of X.
      */
+<<<<<<< HEAD
+=======
+    @Override
+>>>>>>> matiBranch
     public int getMyX() {
         return myX;
     }
@@ -35,6 +55,10 @@ public class Room implements Serializable {
     /**
      * Get the current status of Y.
      */
+<<<<<<< HEAD
+=======
+    @Override
+>>>>>>> matiBranch
     public int getMyY() {
         return myY;
     }
@@ -42,6 +66,7 @@ public class Room implements Serializable {
     /**
      * Getter to return the status of the door.
      */
+<<<<<<< HEAD
     public Door getMyDoor() {
         return myDoor;
     }
@@ -58,3 +83,18 @@ public class Room implements Serializable {
 }
 
 
+=======
+    @Override
+    public Door getMyDoor() {
+        return myDoor;
+    }
+    @Override
+    public char getLetter() {
+        return myRoomLetter;
+    }
+    @Override
+    public QuestionAnswer.Question getQuestion() {
+        return myQA.getMyQuestion();
+    }
+}
+>>>>>>> matiBranch

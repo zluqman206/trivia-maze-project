@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -17,6 +18,10 @@
       <change beforePath="$PROJECT_DIR$/src/GUIView/MazePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/MazePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Maze.java" afterDir="false" />
     </list>
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="7c277175-2073-4117-8089-719b2adaecac" name="Changes" comment="" />
+>>>>>>> matiBranch
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="Class" />
       </list>
     </option>
@@ -36,10 +42,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XSi14Tsmg7u33NV5Eo8xRyoxqp" />
+=======
+        <option value="AnnotationType" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2XioA7qbnxvmaUy8zGy4vazU2R3" />
+>>>>>>> matiBranch
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -57,12 +76,107 @@
     <configuration name="TestFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GUIView.TestFrame" />
       <module name="trivia-maze-project" />
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mati/Documents/Trivia_Maze_FinalVersion/src/Model&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.webOptions&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Model" />
+      <recent name="$PROJECT_DIR$/src/GuiView" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GUIView" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.DoorTest (1)">
+    <configuration name="DoorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+>>>>>>> matiBranch
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="GUIView.*" />
+          <option name="PATTERN" value="JunitTester.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.DoorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.DoorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRoom.testGetLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.TestRoom" />
+      <option name="METHOD_NAME" value="testGetLetter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRoom.testGetMyDoor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.TestRoom" />
+      <option name="METHOD_NAME" value="testGetMyDoor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRoom.testGetQuestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Trivia_Maze_FinalVersion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JunitTester.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="JunitTester" />
+      <option name="MAIN_CLASS_NAME" value="JunitTester.TestRoom" />
+      <option name="METHOD_NAME" value="testGetQuestion" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,14 +196,23 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.TriviaMazeController" />
         <item itemvalue="Application.TestFrame" />
+=======
+        <item itemvalue="JUnit.DoorTest (1)" />
+        <item itemvalue="JUnit.DoorTest" />
+        <item itemvalue="JUnit.TestRoom.testGetQuestion" />
+        <item itemvalue="JUnit.TestRoom.testGetMyDoor" />
+        <item itemvalue="JUnit.TestRoom.testGetLetter" />
+>>>>>>> matiBranch
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="35a6c7ce-a58d-4169-9fc1-ad5cc0297ad3" name="Changes" comment="" />
       <created>1698628667335</created>
       <option name="number" value="Default" />
@@ -113,4 +236,14 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+=======
+      <changelist id="7c277175-2073-4117-8089-719b2adaecac" name="Changes" comment="" />
+      <created>1699121117586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699121117586</updated>
+    </task>
+    <servers />
+  </component>
+>>>>>>> matiBranch
 </project>

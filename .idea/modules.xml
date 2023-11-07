@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/trivia-maze-project.iml" filepath="$PROJECT_DIR$/.idea/trivia-maze-project.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/Trivia_Maze_FinalVersion.iml" filepath="$PROJECT_DIR$/Trivia_Maze_FinalVersion.iml" />
+>>>>>>> matiBranch
     </modules>
   </component>
 </project>
