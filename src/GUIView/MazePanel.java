@@ -2,17 +2,22 @@ package GUIView;
 
 import Model.Maze;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
 public class MazePanel extends JPanel {
 
     private JPanel myMazePanel;
+
 
     private JButton myButton = new JButton("arrow");
 
@@ -24,20 +29,19 @@ public class MazePanel extends JPanel {
             { 'M', 'N', 'O', 'P' }
     };
 
-    public MazePanel(final Maze theMaze) {
+    public MazePanel(final Maze theMaze) throws IOException {
         myMaze = theMaze;
 
         myMazePanel = new JPanel();
-        myMazePanel.setLayout(new GridLayout(4, 4));
-        for (int row = 0; row < 4; row++) {
-            for (int col = 0; col < 4; col++) {
-                char letter = letterGrid[row][col];
-                myMazePanel.add(createLetterPanel(letter, row, col));
-            }
-        }
+        GridLayout myGD = new GridLayout(4, 4);
+        myMazePanel.setLayout(myGD);
+
+        setUpMazePanel('A');
 
         myMazePanel.setPreferredSize(new Dimension(350, 350));
         myMazePanel.setBackground(Color.ORANGE);
+
+        //highlightCurrentRoom();
     }
 
     private JPanel createLetterPanel(char letter, int row, int col) {
@@ -49,6 +53,13 @@ public class MazePanel extends JPanel {
         JPanel contentPanel = new JPanel(new BorderLayout());
 
         // Create a label for the letter and center it
+        if (myMaze.getMyCurrentRoom().getLetter() == letter) {
+            JLabel letterLabel = new JLabel("OO", SwingConstants.CENTER);
+            letterLabel.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 32));
+        } else {
+            JLabel letterLabel = new JLabel(Character.toString(letter), SwingConstants.CENTER);
+            letterLabel.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 24));
+        }
         JLabel letterLabel = new JLabel(Character.toString(letter), SwingConstants.CENTER);
         letterLabel.setFont(new Font(Font.MONOSPACED, Font.PLAIN, 24));
 
@@ -89,6 +100,7 @@ public class MazePanel extends JPanel {
                     System.out.println(myMaze.getMyCurrentRoom().getLetter());
                 } else if (label == "↓") {
                     myMaze.moveDown();
+                    setUpMazePanel(myMaze.getMyCurrentRoom().getLetter());
                     System.out.println(myMaze.getMyCurrentRoom().getLetter());
                 } else if (label == "←") {
                     myMaze.moveLeft();
@@ -103,6 +115,24 @@ public class MazePanel extends JPanel {
         arrowButton.setFont(new Font("Arial", Font.BOLD, 20)); // Adjust font size
 
         return arrowButton;
+    }
+
+    private void setUpMazePanel(char start) {
+        for (int row = 0; row < 4; row++) {
+            for (int col = 0; col < 4; col++) {
+                char letter = letterGrid[row][col];
+
+                myMazePanel.add(createLetterPanel(letter, row, col));
+
+            }
+        }
+    }
+
+    public void highlightCurrentRoom() throws IOException {
+        BufferedImage myPicture = ImageIO.read(new File("/Users/zakariyeluqman/Downloads/Q-mark.jpg"));
+        JLabel picLabel = new JLabel(new ImageIcon(myPicture));
+        picLabel.setSize(22,22);
+        myMazePanel.add(picLabel);
     }
 
 

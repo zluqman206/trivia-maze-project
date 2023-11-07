@@ -13,7 +13,12 @@ public class TriviaMazeController {
      */
     public static void main(String[] theArgs) {
         EventQueue.invokeLater(() -> {
-            var frame = new Frame();
+            Frame frame = null;
+            try {
+                frame = new Frame();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setVisible(true);
         });

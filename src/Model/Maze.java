@@ -27,7 +27,7 @@ public class Maze {
 
         myMaze = new Room[4][4];
 
-        myCurrentRoom = myMaze[myX][myY];
+
 
         char letter = 'A';
         for (int i = 0; i < 4; i++) {
@@ -36,6 +36,8 @@ public class Maze {
                 letter++;
             }
         }
+
+        myCurrentRoom = myMaze[0][0];
     }
 
 
@@ -45,17 +47,20 @@ public class Maze {
     }
 
     public void moveUp() {
-        myCurrentRoom = myMaze[myX][myY++];
-    }
+        myX--;
+        myCurrentRoom = myMaze[myX][myY];    }
 
     public void moveDown() {
-        myCurrentRoom = myMaze[myX][myY--];
+        myX++;
+        myCurrentRoom = myMaze[myX][myY];
     }
     public void moveRight() {
-        myCurrentRoom = myMaze[myX--][myY];
+        myY++;
+        myCurrentRoom = myMaze[myX][myY];
     }
     public void moveLeft() {
-        myCurrentRoom = myMaze[myX++][myY];
+        myY--;
+        myCurrentRoom = myMaze[myX][myY];
     }
 
 

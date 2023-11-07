@@ -10,6 +10,7 @@ import Model.Maze;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.IOException;
 
 /**
  * This class shows a frame of x by y pixels and will hold all the relevant stuff.
@@ -30,7 +31,7 @@ public class Frame extends JFrame {
     /**
      * Constructs frame and initializes the filed.
      */
-    public Frame(){
+    public Frame() throws IOException {
         myMaze = new Maze();
         myToolBar = new ToolBar();
         myMazePanel = new MazePanel(myMaze);

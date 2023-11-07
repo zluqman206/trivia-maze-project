@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35a6c7ce-a58d-4169-9fc1-ad5cc0297ad3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trivia-maze-project/Controller/TriviaMazeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trivia-maze-project/Controller/TriviaMazeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/Frame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/Frame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/Frame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/Frame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/MazePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/MazePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/MazePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trivia-maze-project/GUIView/MazePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trivia-maze-project/Model/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trivia-maze-project/Model/Maze.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/TriviaMazeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/TriviaMazeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUIView/Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/Frame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUIView/MazePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUIView/MazePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Door.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Door.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DoorInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/DoorInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,5 +97,20 @@
       <updated>1698628667335</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Model/Maze.java</url>
+          <line>52</line>
+          <properties class="Model.Maze" method="moveDown">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
